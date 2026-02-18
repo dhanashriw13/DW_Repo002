@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6112071,
+          "srcTgtColId" : 6112450,
           "ruleClsPropId" : 6112062,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -115,7 +115,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6112072,
+          "srcTgtColId" : 6112451,
           "ruleClsPropId" : 6112062,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -126,7 +126,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6112073,
+          "srcTgtColId" : 6112452,
           "ruleClsPropId" : 6112062,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -137,7 +137,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6112074,
+          "srcTgtColId" : 6112453,
           "ruleClsPropId" : 6112062,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -228,7 +228,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6112080,
+          "srcTgtColId" : 6112455,
           "ruleClsPropId" : 6112075,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -290,9 +290,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6112094,
-        "srcColId" : 6112071,
-        "trgColId" : 6112080,
+        "colMapId" : 6112457,
+        "srcColId" : 6112450,
+        "trgColId" : 6112455,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "cnt",
@@ -419,7 +419,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6112071,
+      "srcTgtColId" : 6112450,
       "ruleClsPropId" : 6112062,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -430,7 +430,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6112072,
+      "srcTgtColId" : 6112451,
       "ruleClsPropId" : 6112062,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -441,7 +441,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6112073,
+      "srcTgtColId" : 6112452,
       "ruleClsPropId" : 6112062,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -452,7 +452,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6112074,
+      "srcTgtColId" : 6112453,
       "ruleClsPropId" : 6112062,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -463,7 +463,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6112080,
+      "srcTgtColId" : 6112455,
       "ruleClsPropId" : 6112075,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -475,9 +475,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 6112094,
-      "srcColId" : 6112071,
-      "trgColId" : 6112080,
+      "colMapId" : 6112457,
+      "srcColId" : 6112450,
+      "trgColId" : 6112455,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "cnt",
@@ -529,31 +529,31 @@
       "derivedExpressionName" : "xray_project_key",
       "derivedExpression" : "xray_project_key = 'XRC'",
       "derivedExpressionResult" : "XRC",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "xray_generate_test",
       "derivedExpression" : "xray_generate_test = Yes",
       "derivedExpressionResult" : "true",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "xray_generate_subtest_execution",
       "derivedExpression" : "xray_generate_subtest_execution = Yes",
       "derivedExpressionResult" : "true",
-      "derivedExpressionIndex" : 2,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "Product-Name",
       "derivedExpression" : "Product-Name = 'product-name-2'",
       "derivedExpressionResult" : "product-name-2",
-      "derivedExpressionIndex" : 3,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "Labels",
       "derivedExpression" : "Labels = 'Move'",
       "derivedExpressionResult" : "Move",
-      "derivedExpressionIndex" : 4,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     } ]
   }
