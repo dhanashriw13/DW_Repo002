@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6112109,
+          "srcTgtColId" : 6112469,
           "ruleClsPropId" : 6112100,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -195,7 +195,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6112119,
+          "srcTgtColId" : 6112472,
           "ruleClsPropId" : 6112110,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -278,9 +278,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6112123,
-        "srcColId" : 6112109,
-        "trgColId" : 6112119,
+        "colMapId" : 6112473,
+        "srcColId" : 6112469,
+        "trgColId" : 6112472,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -321,7 +321,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6112109,
+      "srcTgtColId" : 6112469,
       "ruleClsPropId" : 6112100,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -332,7 +332,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6112119,
+      "srcTgtColId" : 6112472,
       "ruleClsPropId" : 6112110,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -344,9 +344,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 6112123,
-      "srcColId" : 6112109,
-      "trgColId" : 6112119,
+      "colMapId" : 6112473,
+      "srcColId" : 6112469,
+      "trgColId" : 6112472,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
