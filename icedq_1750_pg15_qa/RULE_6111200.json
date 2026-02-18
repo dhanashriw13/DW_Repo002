@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 1509877,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 1509877,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2026-02-18 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2026-02-18 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -49,12 +49,12 @@
     "srcConn" : "_ORACLE",
     "trgConn" : "_ORACLE",
     "elapseTime" : 0,
-    "parameterId" : null,
+    "parameterId" : "",
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "dhanashriw01",
     "projectName" : "18.9.1_Hotfix_UT",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "dhanashriw01",
     "ruleClassId" : 6111201,
     "successBody" : null,
     "failureBody" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6111244,
-        "srcColId" : 6111226,
-        "trgColId" : 6111240,
+        "colMapId" : 6112175,
+        "srcColId" : 6112164,
+        "trgColId" : 6112170,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "department_id",
@@ -328,7 +328,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6111226,
+          "srcTgtColId" : 6112164,
           "ruleClsPropId" : 6111219,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -339,7 +339,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111227,
+          "srcTgtColId" : 6112165,
           "ruleClsPropId" : 6111219,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -350,7 +350,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111228,
+          "srcTgtColId" : 6112166,
           "ruleClsPropId" : 6111219,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -361,7 +361,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111229,
+          "srcTgtColId" : 6112167,
           "ruleClsPropId" : 6111219,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -377,7 +377,7 @@
         "ruleClsPropID" : 6111221,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "11672055",
+        "paramValue" : "4181293",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -445,7 +445,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6111240,
+          "srcTgtColId" : 6112170,
           "ruleClsPropId" : 6111230,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -456,7 +456,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111241,
+          "srcTgtColId" : 6112171,
           "ruleClsPropId" : 6111230,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -467,7 +467,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111242,
+          "srcTgtColId" : 6112172,
           "ruleClsPropId" : 6111230,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -478,7 +478,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111243,
+          "srcTgtColId" : 6112173,
           "ruleClsPropId" : 6111230,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -494,7 +494,7 @@
         "ruleClsPropID" : 6111232,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "11672055",
+        "paramValue" : "4181293",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -549,7 +549,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6111226,
+      "srcTgtColId" : 6112164,
       "ruleClsPropId" : 6111219,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -560,7 +560,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111227,
+      "srcTgtColId" : 6112165,
       "ruleClsPropId" : 6111219,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -571,7 +571,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111228,
+      "srcTgtColId" : 6112166,
       "ruleClsPropId" : 6111219,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -582,7 +582,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111229,
+      "srcTgtColId" : 6112167,
       "ruleClsPropId" : 6111219,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -593,7 +593,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111240,
+      "srcTgtColId" : 6112170,
       "ruleClsPropId" : 6111230,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -604,7 +604,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111241,
+      "srcTgtColId" : 6112171,
       "ruleClsPropId" : 6111230,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -615,7 +615,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111242,
+      "srcTgtColId" : 6112172,
       "ruleClsPropId" : 6111230,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -626,7 +626,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111243,
+      "srcTgtColId" : 6112173,
       "ruleClsPropId" : 6111230,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -638,9 +638,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 6111244,
-      "srcColId" : 6111226,
-      "trgColId" : 6111240,
+      "colMapId" : 6112175,
+      "srcColId" : 6112164,
+      "trgColId" : 6112170,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "department_id",
@@ -659,7 +659,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : null,
+    "ruleParameter" : "",
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
@@ -761,31 +761,31 @@
       "derivedExpressionName" : "ado_organization_name",
       "derivedExpression" : "ado_organization_name = 'toranainc'",
       "derivedExpressionResult" : "toranainc",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "ado_project_name",
       "derivedExpression" : "ado_project_name = 'devops-test-integration'",
       "derivedExpressionResult" : "devops-test-integration",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "ado_test_plan_id",
       "derivedExpression" : "ado_test_plan_id = 6471",
       "derivedExpressionResult" : "6471",
-      "derivedExpressionIndex" : 2,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "ado_test_suite_id",
       "derivedExpression" : "ado_test_suite_id = 6473,6482",
       "derivedExpressionResult" : "6473,6482",
-      "derivedExpressionIndex" : 3,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "ado_test_case_id",
       "derivedExpression" : "ado_test_case_id = 6489,6484",
       "derivedExpressionResult" : "6489,6484",
-      "derivedExpressionIndex" : 4,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     } ]
   }
