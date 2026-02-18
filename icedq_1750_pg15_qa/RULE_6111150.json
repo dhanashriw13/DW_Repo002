@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 1509877,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 1509877,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2026-02-18 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2026-02-18 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "dhanashriw01",
     "projectName" : "18.9.1_Hotfix_UT",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "dhanashriw01",
     "ruleClassId" : 6111153,
     "successBody" : null,
     "failureBody" : null,
@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6111164,
+          "srcTgtColId" : 6112150,
           "ruleClsPropId" : 6111154,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -115,7 +115,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111165,
+          "srcTgtColId" : 6112151,
           "ruleClsPropId" : 6111154,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -126,7 +126,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111166,
+          "srcTgtColId" : 6112152,
           "ruleClsPropId" : 6111154,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -137,7 +137,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111167,
+          "srcTgtColId" : 6112153,
           "ruleClsPropId" : 6111154,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -249,7 +249,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6111178,
+          "srcTgtColId" : 6112156,
           "ruleClsPropId" : 6111170,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -260,7 +260,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111179,
+          "srcTgtColId" : 6112157,
           "ruleClsPropId" : 6111170,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -271,7 +271,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111180,
+          "srcTgtColId" : 6112158,
           "ruleClsPropId" : 6111170,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -282,7 +282,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111181,
+          "srcTgtColId" : 6112159,
           "ruleClsPropId" : 6111170,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -358,15 +358,15 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6111195,
-        "srcColId" : 6111164,
-        "trgColId" : 6111178,
+        "colMapId" : 6112161,
+        "srcColId" : 6112150,
+        "trgColId" : 6112156,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "department_id",
         "colMapExpr" : "department_id=department_id",
         "srcTrgColMapVisible" : 1,
-        "displayIndex" : 5
+        "displayIndex" : 3
       } ],
       "exprlist" : [ {
         "exprID" : 6111196,
@@ -437,39 +437,9 @@
         "name" : null,
         "ve" : 0,
         "exporg" : null
-      }, {
-        "exprID" : 6111199,
-        "exprLogID" : 0,
-        "exprName" : "location_id",
-        "expression" : "S.location_id == T.location_id",
-        "result" : "Pass",
-        "exprType" : "5",
-        "exprVisible" : 1,
-        "exprIndex" : 3,
-        "ruleId" : 6111150,
-        "ruleInstanceId" : 0,
-        "ruleClassId" : 6111153,
-        "ruleName" : null,
-        "trueCount" : null,
-        "falseCount" : null,
-        "errCount" : null,
-        "exprOrg" : "S.location_id == T.location_id",
-        "tc" : null,
-        "fc" : null,
-        "er" : null,
-        "name" : null,
-        "ve" : 0,
-        "exporg" : null
       } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 6111182,
-        "paramId" : 531,
-        "paramMethod" : "setThresholdExpression",
-        "paramValue" : "",
-        "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 6111184,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
@@ -546,6 +516,13 @@
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
+      }, {
+        "ruleClsPropID" : 6111182,
+        "paramId" : 531,
+        "paramMethod" : "setThresholdExpression",
+        "paramValue" : "",
+        "srcTrgTbllist" : [ ],
+        "fileContent" : null
       } ],
       "bigDataExecMode" : null,
       "srcConnServer" : null,
@@ -556,7 +533,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6111164,
+      "srcTgtColId" : 6112150,
       "ruleClsPropId" : 6111154,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -567,7 +544,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111165,
+      "srcTgtColId" : 6112151,
       "ruleClsPropId" : 6111154,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -578,7 +555,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111166,
+      "srcTgtColId" : 6112152,
       "ruleClsPropId" : 6111154,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -589,7 +566,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111167,
+      "srcTgtColId" : 6112153,
       "ruleClsPropId" : 6111154,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -600,7 +577,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111178,
+      "srcTgtColId" : 6112156,
       "ruleClsPropId" : 6111170,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -611,7 +588,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111179,
+      "srcTgtColId" : 6112157,
       "ruleClsPropId" : 6111170,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -622,7 +599,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111180,
+      "srcTgtColId" : 6112158,
       "ruleClsPropId" : 6111170,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -633,7 +610,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111181,
+      "srcTgtColId" : 6112159,
       "ruleClsPropId" : 6111170,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -645,15 +622,15 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 6111195,
-      "srcColId" : 6111164,
-      "trgColId" : 6111178,
+      "colMapId" : 6112161,
+      "srcColId" : 6112150,
+      "trgColId" : 6112156,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "department_id",
       "colMapExpr" : "department_id=department_id",
       "srcTrgColMapVisible" : 1,
-      "displayIndex" : 5
+      "displayIndex" : 3
     } ],
     "objectVOList" : null,
     "srcCount" : null,
@@ -726,29 +703,6 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 2,
-      "ruleId" : 6111150,
-      "ruleInstanceId" : 0,
-      "ruleClassId" : 6111153,
-      "ruleName" : null,
-      "trueCount" : null,
-      "falseCount" : null,
-      "errCount" : null,
-      "exprOrg" : null,
-      "tc" : null,
-      "fc" : null,
-      "er" : null,
-      "name" : null,
-      "ve" : 0,
-      "exporg" : null
-    }, {
-      "exprID" : 6111199,
-      "exprLogID" : 0,
-      "exprName" : "location_id",
-      "expression" : "S.location_id == T.location_id",
-      "result" : "Pass",
-      "exprType" : "5",
-      "exprVisible" : 1,
-      "exprIndex" : 3,
       "ruleId" : 6111150,
       "ruleInstanceId" : 0,
       "ruleClassId" : 6111153,
