@@ -49,7 +49,7 @@
     "srcConn" : "00_ORA",
     "trgConn" : "00_ORA",
     "elapseTime" : 0,
-    "parameterId" : "18.3.0_wellsfargo/Dhanashri",
+    "parameterId" : "",
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "dhanashriw01",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6111846,
-        "srcColId" : 6111830,
-        "trgColId" : 6111843,
+        "colMapId" : 6112285,
+        "srcColId" : 6112276,
+        "trgColId" : 6112281,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "country_id",
@@ -291,7 +291,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from #Q2#",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6111830,
+          "srcTgtColId" : 6112276,
           "ruleClsPropId" : 6111820,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -302,7 +302,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111831,
+          "srcTgtColId" : 6112277,
           "ruleClsPropId" : 6111820,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -313,7 +313,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111832,
+          "srcTgtColId" : 6112278,
           "ruleClsPropId" : 6111820,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -329,7 +329,7 @@
         "ruleClsPropID" : 6111822,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "1876353",
+        "paramValue" : "2105",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -411,7 +411,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6111843,
+          "srcTgtColId" : 6112281,
           "ruleClsPropId" : 6111833,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -422,7 +422,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111844,
+          "srcTgtColId" : 6112282,
           "ruleClsPropId" : 6111833,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -433,7 +433,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6111845,
+          "srcTgtColId" : 6112283,
           "ruleClsPropId" : 6111833,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -449,7 +449,7 @@
         "ruleClsPropID" : 6111835,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "1876353",
+        "paramValue" : "2105",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -504,7 +504,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6111830,
+      "srcTgtColId" : 6112276,
       "ruleClsPropId" : 6111820,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -515,7 +515,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111831,
+      "srcTgtColId" : 6112277,
       "ruleClsPropId" : 6111820,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -526,7 +526,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111832,
+      "srcTgtColId" : 6112278,
       "ruleClsPropId" : 6111820,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -537,7 +537,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111843,
+      "srcTgtColId" : 6112281,
       "ruleClsPropId" : 6111833,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -548,7 +548,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111844,
+      "srcTgtColId" : 6112282,
       "ruleClsPropId" : 6111833,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -559,7 +559,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6111845,
+      "srcTgtColId" : 6112283,
       "ruleClsPropId" : 6111833,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -571,9 +571,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 6111846,
-      "srcColId" : 6111830,
-      "trgColId" : 6111843,
+      "colMapId" : 6112285,
+      "srcColId" : 6112276,
+      "trgColId" : 6112281,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "country_id",
@@ -592,7 +592,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : "18.3.0_wellsfargo/Dhanashri",
+    "ruleParameter" : "",
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
@@ -671,55 +671,55 @@
       "derivedExpressionName" : "xray_project_key",
       "derivedExpression" : "xray_project_key = 'XRC'",
       "derivedExpressionResult" : "XRC",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "xray_generate_test",
       "derivedExpression" : "xray_generate_test = yes",
       "derivedExpressionResult" : "true",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "xray_generate_subtest_execution",
       "derivedExpression" : "xray_generate_subtest_execution = yes",
       "derivedExpressionResult" : "true",
-      "derivedExpressionIndex" : 2,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "xray_test_plan_id",
       "derivedExpression" : "xray_test_plan_id = 'XRC-1751'",
       "derivedExpressionResult" : "XRC-1751",
-      "derivedExpressionIndex" : 3,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "product-name",
       "derivedExpression" : "product-name = 'product-name-2'",
       "derivedExpressionResult" : "product-name-2",
-      "derivedExpressionIndex" : 4,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "Automation-Status",
       "derivedExpression" : "Automation-Status = 'Added all variables in summary'",
       "derivedExpressionResult" : "Added all variables in summary",
-      "derivedExpressionIndex" : 5,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "product-line",
       "derivedExpression" : "product-line = 'product-line-2'",
       "derivedExpressionResult" : "product-line-2",
-      "derivedExpressionIndex" : 6,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "Labels",
       "derivedExpression" : "Labels = 'HTML'",
       "derivedExpressionResult" : "HTML",
-      "derivedExpressionIndex" : 7,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "Priority",
       "derivedExpression" : "Priority = 'Blocker'",
       "derivedExpressionResult" : "Blocker",
-      "derivedExpressionIndex" : 8,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     } ]
   }
