@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 85347,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 85347,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2026-02-19 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2026-02-24 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -42,19 +42,19 @@
     "failureHeader" : null,
     "failureAttFlag" : 0,
     "successAttFlag" : 0,
-    "srcConnId" : 5979660,
-    "trgConnId" : 5979660,
+    "srcConnId" : 6113666,
+    "trgConnId" : 6113666,
     "srcSysGroupId" : 0,
     "trgSysGroupId" : 0,
-    "srcConn" : "FlatFile_SFTP_70",
-    "trgConn" : "FlatFile_SFTP_70",
+    "srcConn" : "Parquet_GCS_02",
+    "trgConn" : "Parquet_GCS_02",
     "elapseTime" : 0,
-    "parameterId" : null,
+    "parameterId" : "",
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "amarbele",
     "projectName" : "19.0.0_WellsFargo",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "amarbele",
     "ruleClassId" : 6117306,
     "successBody" : null,
     "failureBody" : null,
@@ -79,7 +79,7 @@
       "classId" : 3,
       "name" : null,
       "ruleClassId" : 6117306,
-      "connType" : null,
+      "connType" : "",
       "execMode" : "recon",
       "index" : 1,
       "classRun" : "com.ice.bpel.CompareData",
@@ -96,35 +96,25 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6117363,
-        "srcColId" : 6117340,
-        "trgColId" : 6117361,
+        "colMapId" : 6120191,
+        "srcColId" : 6120183,
+        "trgColId" : 6120187,
         "colMapType" : "join",
         "srcColName" : "sum_salary",
         "tgtColName" : "sum_salary",
         "colMapExpr" : "sum_salary=sum_salary",
         "srcTrgColMapVisible" : 1,
-        "displayIndex" : 2
-      }, {
-        "colMapId" : 6117364,
-        "srcColId" : 6117341,
-        "trgColId" : 6117362,
-        "colMapType" : "join",
-        "srcColName" : "citystate",
-        "tgtColName" : "citystate",
-        "colMapExpr" : "citystate=citystate",
-        "srcTrgColMapVisible" : 1,
-        "displayIndex" : 3
+        "displayIndex" : 0
       } ],
       "exprlist" : [ {
-        "exprID" : 6117365,
+        "exprID" : 6120192,
         "exprLogID" : 0,
-        "exprName" : "sum_salary",
-        "expression" : "S.sum_salary == T.sum_salary",
+        "exprName" : "s_city",
+        "expression" : "S.s_city == T.s_city",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
-        "exprIndex" : 0,
+        "exprIndex" : 1,
         "ruleId" : 6117305,
         "ruleInstanceId" : 0,
         "ruleClassId" : 6117306,
@@ -132,7 +122,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "S.sum_salary == T.sum_salary",
+        "exprOrg" : "S.s_city == T.s_city",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -187,7 +177,7 @@
         "ruleClsPropID" : 6117315,
         "paramId" : 72,
         "paramMethod" : "setTimeOut",
-        "paramValue" : null,
+        "paramValue" : "",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -237,7 +227,7 @@
       "vid" : "GetData11",
       "classObjName" : "ICE_1699013743545",
       "queryBuilderXML" : null,
-      "connId" : 5979660,
+      "connId" : 6113666,
       "resultType" : "expression",
       "connName" : null,
       "connUrl" : null,
@@ -253,9 +243,9 @@
         "ruleClsPropID" : 6117321,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select salary as sum_salary, citystate from staff group by citystate\n--select * from staff",
+        "paramValue" : "select s_salary as sum_salary, s_city from staff group by s_city\n--select * from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6117340,
+          "srcTgtColId" : 6120183,
           "ruleClsPropId" : 6117321,
           "srcTrgColName" : "sum_salary",
           "srcTrgColDataType" : "VARCHAR",
@@ -263,18 +253,18 @@
           "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
-          "colFormat" : null,
+          "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6117341,
+          "srcTgtColId" : 6120184,
           "ruleClsPropId" : 6117321,
-          "srcTrgColName" : "citystate",
+          "srcTrgColName" : "s_city",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
           "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
-          "colFormat" : null,
+          "colFormat" : "",
           "displayIndex" : 0
         } ],
         "fileContent" : null
@@ -282,7 +272,7 @@
         "ruleClsPropID" : 6117323,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "4656108",
+        "paramValue" : "6113666",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -303,7 +293,7 @@
         "ruleClsPropID" : 6117326,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
-        "paramValue" : "sum_salary,citystate",
+        "paramValue" : "sum_salary",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -317,56 +307,14 @@
         "ruleClsPropID" : 6117329,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "sum_salary^~^12^~^VARCHAR^~^2000^~^1$~$citystate^~^12^~^VARCHAR^~^2000^~^2",
+        "paramValue" : "sum_salary^~^12^~^VARCHAR^~^2000^~^1$~$s_city^~^12^~^VARCHAR^~^2000^~^2",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
         "ruleClsPropID" : 6117330,
         "paramId" : 8,
         "paramMethod" : "setFileName",
-        "paramValue" : "Staff.txt",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117331,
-        "paramId" : 69,
-        "paramMethod" : "setHasHeader",
-        "paramValue" : "true",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117332,
-        "paramId" : 67,
-        "paramMethod" : "setSkipFirstRowCount",
-        "paramValue" : null,
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117333,
-        "paramId" : 71,
-        "paramMethod" : "setFileFormat",
-        "paramValue" : ",",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117334,
-        "paramId" : 500,
-        "paramMethod" : "setPushAttribute",
-        "paramValue" : ",",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117335,
-        "paramId" : 496,
-        "paramMethod" : "setDataModel",
-        "paramValue" : "\\",
-        "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117336,
-        "paramId" : 407,
-        "paramMethod" : "setEmptyStringAsNull",
-        "paramValue" : "None",
+        "paramValue" : "staff",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -375,20 +323,6 @@
         "paramMethod" : "setCacheTableName",
         "paramValue" : "Staff",
         "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117338,
-        "paramId" : 463,
-        "paramMethod" : "setTextQualifier",
-        "paramValue" : "\"",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117339,
-        "paramId" : 464,
-        "paramMethod" : "setRowDelimiter",
-        "paramValue" : "\n",
-        "srcTrgTbllist" : null,
         "fileContent" : null
       } ],
       "bigDataExecMode" : null,
@@ -409,7 +343,7 @@
       "vid" : "GetData21",
       "classObjName" : "ICE_1699013743545",
       "queryBuilderXML" : null,
-      "connId" : 5979660,
+      "connId" : 6113666,
       "resultType" : "expression",
       "connName" : null,
       "connUrl" : null,
@@ -425,36 +359,47 @@
         "ruleClsPropID" : 6117342,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select salary as sum_salary, citystate from staff group by citystate\n--select * from staff",
+        "paramValue" : "select s_salary as sum_salary, s_city, s_state  from staff group by s_city\n--select * from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6117361,
+          "srcTgtColId" : 6120187,
           "ruleClsPropId" : 6117342,
           "srcTrgColName" : "sum_salary",
-          "srcTrgColDataType" : "INT",
-          "colFlagType" : "tgt",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : null,
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 6117362,
-          "ruleClsPropId" : 6117342,
-          "srcTrgColName" : "citystate",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "tgt",
           "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
-          "colFormat" : null,
+          "colFormat" : "",
           "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 6120188,
+          "ruleClsPropId" : 6117342,
+          "srcTrgColName" : "s_city",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "tgt",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 6120189,
+          "ruleClsPropId" : 6117342,
+          "srcTrgColName" : "s_state",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "tgt",
+          "srcTrgColVisible" : 1,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 2
         } ],
         "fileContent" : null
       }, {
         "ruleClsPropID" : 6117344,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "4656108",
+        "paramValue" : "6113666",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -475,7 +420,7 @@
         "ruleClsPropID" : 6117347,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
-        "paramValue" : "sum_salary,citystate",
+        "paramValue" : "sum_salary",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -489,56 +434,14 @@
         "ruleClsPropID" : 6117350,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "sum_salary^~^4^~^INT^~^10^~^1$~$citystate^~^12^~^VARCHAR^~^2000^~^2",
+        "paramValue" : "sum_salary^~^12^~^VARCHAR^~^2000^~^1$~$s_city^~^12^~^VARCHAR^~^2000^~^2$~$s_state^~^12^~^VARCHAR^~^2000^~^3",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
         "ruleClsPropID" : 6117351,
         "paramId" : 8,
         "paramMethod" : "setFileName",
-        "paramValue" : "Staff.txt",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117352,
-        "paramId" : 69,
-        "paramMethod" : "setHasHeader",
-        "paramValue" : "true",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117353,
-        "paramId" : 67,
-        "paramMethod" : "setSkipFirstRowCount",
-        "paramValue" : null,
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117354,
-        "paramId" : 71,
-        "paramMethod" : "setFileFormat",
-        "paramValue" : ",",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117355,
-        "paramId" : 500,
-        "paramMethod" : "setPushAttribute",
-        "paramValue" : ",",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117356,
-        "paramId" : 496,
-        "paramMethod" : "setDataModel",
-        "paramValue" : "\\",
-        "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117357,
-        "paramId" : 407,
-        "paramMethod" : "setEmptyStringAsNull",
-        "paramValue" : "RowScan",
+        "paramValue" : "staff",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -547,20 +450,6 @@
         "paramMethod" : "setCacheTableName",
         "paramValue" : "Staff",
         "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117359,
-        "paramId" : 463,
-        "paramMethod" : "setTextQualifier",
-        "paramValue" : "\"",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 6117360,
-        "paramId" : 464,
-        "paramMethod" : "setRowDelimiter",
-        "paramValue" : "\n",
-        "srcTrgTbllist" : null,
         "fileContent" : null
       } ],
       "bigDataExecMode" : null,
@@ -572,7 +461,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6117340,
+      "srcTgtColId" : 6120183,
       "ruleClsPropId" : 6117321,
       "srcTrgColName" : "sum_salary",
       "srcTrgColDataType" : "VARCHAR",
@@ -580,62 +469,63 @@
       "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "sum_salary",
-      "colFormat" : null,
+      "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6117341,
+      "srcTgtColId" : 6120184,
       "ruleClsPropId" : 6117321,
-      "srcTrgColName" : "citystate",
+      "srcTrgColName" : "s_city",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
       "srcTrgColVisible" : 0,
       "joinList" : null,
-      "mapColName" : "citystate",
-      "colFormat" : null,
+      "mapColName" : "s_city",
+      "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6117361,
+      "srcTgtColId" : 6120187,
       "ruleClsPropId" : 6117342,
       "srcTrgColName" : "sum_salary",
-      "srcTrgColDataType" : "INT",
-      "colFlagType" : "tgt",
-      "srcTrgColVisible" : 0,
-      "joinList" : null,
-      "mapColName" : "sum_salary",
-      "colFormat" : null,
-      "displayIndex" : 0
-    }, {
-      "srcTgtColId" : 6117362,
-      "ruleClsPropId" : 6117342,
-      "srcTrgColName" : "citystate",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "tgt",
       "srcTrgColVisible" : 0,
       "joinList" : null,
-      "mapColName" : "citystate",
-      "colFormat" : null,
+      "mapColName" : "sum_salary",
+      "colFormat" : "",
       "displayIndex" : 0
+    }, {
+      "srcTgtColId" : 6120188,
+      "ruleClsPropId" : 6117342,
+      "srcTrgColName" : "s_city",
+      "srcTrgColDataType" : "VARCHAR",
+      "colFlagType" : "tgt",
+      "srcTrgColVisible" : 0,
+      "joinList" : null,
+      "mapColName" : "s_city",
+      "colFormat" : "",
+      "displayIndex" : 0
+    }, {
+      "srcTgtColId" : 6120189,
+      "ruleClsPropId" : 6117342,
+      "srcTrgColName" : "s_state",
+      "srcTrgColDataType" : "VARCHAR",
+      "colFlagType" : "tgt",
+      "srcTrgColVisible" : 1,
+      "joinList" : null,
+      "mapColName" : "s_state",
+      "colFormat" : "",
+      "displayIndex" : 2
     } ],
     "colMapList" : [ {
-      "colMapId" : 6117363,
-      "srcColId" : 6117340,
-      "trgColId" : 6117361,
+      "colMapId" : 6120191,
+      "srcColId" : 6120183,
+      "trgColId" : 6120187,
       "colMapType" : "join",
       "srcColName" : "sum_salary",
       "tgtColName" : "sum_salary",
       "colMapExpr" : "sum_salary=sum_salary",
       "srcTrgColMapVisible" : 1,
-      "displayIndex" : 2
-    }, {
-      "colMapId" : 6117364,
-      "srcColId" : 6117341,
-      "trgColId" : 6117362,
-      "colMapType" : "join",
-      "srcColName" : "citystate",
-      "tgtColName" : "citystate",
-      "colMapExpr" : "citystate=citystate",
-      "srcTrgColMapVisible" : 1,
-      "displayIndex" : 3
+      "displayIndex" : 0
     } ],
     "objectVOList" : null,
     "srcCount" : null,
@@ -648,20 +538,20 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : null,
+    "ruleParameter" : "",
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ {
-      "exprID" : 6117365,
+      "exprID" : 6120192,
       "exprLogID" : 0,
-      "exprName" : "sum_salary",
-      "expression" : "S.sum_salary == T.sum_salary",
+      "exprName" : "s_city",
+      "expression" : "S.s_city == T.s_city",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
-      "exprIndex" : 0,
+      "exprIndex" : 1,
       "ruleId" : 6117305,
       "ruleInstanceId" : 0,
       "ruleClassId" : 6117306,
