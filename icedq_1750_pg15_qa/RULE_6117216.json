@@ -96,15 +96,25 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6120137,
-        "srcColId" : 6120098,
-        "trgColId" : 6120118,
+        "colMapId" : 6120179,
+        "srcColId" : 6120140,
+        "trgColId" : 6120160,
         "colMapType" : "join",
         "srcColName" : "s_staffid",
         "tgtColName" : "s_staffid",
         "colMapExpr" : "s_staffid=s_staffid",
         "srcTrgColMapVisible" : 1,
         "displayIndex" : 1
+      }, {
+        "colMapId" : 6120180,
+        "srcColId" : 6120153,
+        "trgColId" : 6120173,
+        "colMapType" : "join",
+        "srcColName" : "s_city",
+        "tgtColName" : "s_city",
+        "colMapExpr" : "s_city=s_city",
+        "srcTrgColMapVisible" : 1,
+        "displayIndex" : 2
       } ],
       "exprlist" : [ ],
       "derivedexprlist" : null,
@@ -222,7 +232,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from staff where s_city='NEW YORK' --AND s_salary > 50000",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6120098,
+          "srcTgtColId" : 6120140,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_staffid",
           "srcTrgColDataType" : "VARCHAR",
@@ -233,7 +243,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120099,
+          "srcTgtColId" : 6120141,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_sex",
           "srcTrgColDataType" : "VARCHAR",
@@ -244,7 +254,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120100,
+          "srcTgtColId" : 6120142,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_jobcode",
           "srcTrgColDataType" : "VARCHAR",
@@ -255,7 +265,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120101,
+          "srcTgtColId" : 6120143,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_company",
           "srcTrgColDataType" : "VARCHAR",
@@ -266,7 +276,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120102,
+          "srcTgtColId" : 6120144,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_salary",
           "srcTrgColDataType" : "VARCHAR",
@@ -277,7 +287,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120103,
+          "srcTgtColId" : 6120145,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_bonus",
           "srcTrgColDataType" : "VARCHAR",
@@ -288,7 +298,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120104,
+          "srcTgtColId" : 6120146,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_comm",
           "srcTrgColDataType" : "VARCHAR",
@@ -299,7 +309,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120105,
+          "srcTgtColId" : 6120147,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_totalsalary",
           "srcTrgColDataType" : "VARCHAR",
@@ -310,7 +320,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120106,
+          "srcTgtColId" : 6120148,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_birthd",
           "srcTrgColDataType" : "VARCHAR",
@@ -321,7 +331,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120107,
+          "srcTgtColId" : 6120149,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_hired",
           "srcTrgColDataType" : "VARCHAR",
@@ -332,7 +342,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120108,
+          "srcTgtColId" : 6120150,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_lname",
           "srcTrgColDataType" : "VARCHAR",
@@ -343,7 +353,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120109,
+          "srcTgtColId" : 6120151,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_fname",
           "srcTrgColDataType" : "VARCHAR",
@@ -354,7 +364,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120110,
+          "srcTgtColId" : 6120152,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_address",
           "srcTrgColDataType" : "VARCHAR",
@@ -365,7 +375,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120111,
+          "srcTgtColId" : 6120153,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_city",
           "srcTrgColDataType" : "VARCHAR",
@@ -376,7 +386,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120112,
+          "srcTgtColId" : 6120154,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_state",
           "srcTrgColDataType" : "VARCHAR",
@@ -387,7 +397,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120113,
+          "srcTgtColId" : 6120155,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_hphone",
           "srcTrgColDataType" : "VARCHAR",
@@ -398,7 +408,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120114,
+          "srcTgtColId" : 6120156,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "s_ssn",
           "srcTrgColDataType" : "VARCHAR",
@@ -409,7 +419,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120115,
+          "srcTgtColId" : 6120157,
           "ruleClsPropId" : 6117232,
           "srcTrgColName" : "errrow",
           "srcTrgColDataType" : "VARCHAR",
@@ -446,7 +456,7 @@
         "ruleClsPropID" : 6117237,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
-        "paramValue" : "s_staffid",
+        "paramValue" : "s_staffid,s_city",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -514,7 +524,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from staff where s_city='NEW YORK' --AND s_salary > 50000",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6120118,
+          "srcTgtColId" : 6120160,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_staffid",
           "srcTrgColDataType" : "VARCHAR",
@@ -525,7 +535,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120119,
+          "srcTgtColId" : 6120161,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_sex",
           "srcTrgColDataType" : "VARCHAR",
@@ -536,7 +546,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120120,
+          "srcTgtColId" : 6120162,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_jobcode",
           "srcTrgColDataType" : "VARCHAR",
@@ -547,7 +557,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120121,
+          "srcTgtColId" : 6120163,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_company",
           "srcTrgColDataType" : "VARCHAR",
@@ -558,7 +568,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120122,
+          "srcTgtColId" : 6120164,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_salary",
           "srcTrgColDataType" : "VARCHAR",
@@ -569,7 +579,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120123,
+          "srcTgtColId" : 6120165,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_bonus",
           "srcTrgColDataType" : "VARCHAR",
@@ -580,7 +590,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120124,
+          "srcTgtColId" : 6120166,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_comm",
           "srcTrgColDataType" : "VARCHAR",
@@ -591,7 +601,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120125,
+          "srcTgtColId" : 6120167,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_totalsalary",
           "srcTrgColDataType" : "VARCHAR",
@@ -602,7 +612,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120126,
+          "srcTgtColId" : 6120168,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_birthd",
           "srcTrgColDataType" : "VARCHAR",
@@ -613,7 +623,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120127,
+          "srcTgtColId" : 6120169,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_hired",
           "srcTrgColDataType" : "VARCHAR",
@@ -624,7 +634,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120128,
+          "srcTgtColId" : 6120170,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_lname",
           "srcTrgColDataType" : "VARCHAR",
@@ -635,7 +645,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120129,
+          "srcTgtColId" : 6120171,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_fname",
           "srcTrgColDataType" : "VARCHAR",
@@ -646,7 +656,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120130,
+          "srcTgtColId" : 6120172,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_address",
           "srcTrgColDataType" : "VARCHAR",
@@ -657,7 +667,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120131,
+          "srcTgtColId" : 6120173,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_city",
           "srcTrgColDataType" : "VARCHAR",
@@ -668,7 +678,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120132,
+          "srcTgtColId" : 6120174,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_state",
           "srcTrgColDataType" : "VARCHAR",
@@ -679,7 +689,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120133,
+          "srcTgtColId" : 6120175,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_hphone",
           "srcTrgColDataType" : "VARCHAR",
@@ -690,7 +700,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120134,
+          "srcTgtColId" : 6120176,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "s_ssn",
           "srcTrgColDataType" : "VARCHAR",
@@ -701,7 +711,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6120135,
+          "srcTgtColId" : 6120177,
           "ruleClsPropId" : 6117267,
           "srcTrgColName" : "errrow",
           "srcTrgColDataType" : "VARCHAR",
@@ -738,7 +748,7 @@
         "ruleClsPropID" : 6117272,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
-        "paramValue" : "s_staffid",
+        "paramValue" : "s_staffid,s_city",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -779,7 +789,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6120098,
+      "srcTgtColId" : 6120140,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_staffid",
       "srcTrgColDataType" : "VARCHAR",
@@ -790,7 +800,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120099,
+      "srcTgtColId" : 6120141,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_sex",
       "srcTrgColDataType" : "VARCHAR",
@@ -801,7 +811,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120100,
+      "srcTgtColId" : 6120142,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_jobcode",
       "srcTrgColDataType" : "VARCHAR",
@@ -812,7 +822,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120101,
+      "srcTgtColId" : 6120143,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_company",
       "srcTrgColDataType" : "VARCHAR",
@@ -823,7 +833,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120102,
+      "srcTgtColId" : 6120144,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_salary",
       "srcTrgColDataType" : "VARCHAR",
@@ -834,7 +844,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120103,
+      "srcTgtColId" : 6120145,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_bonus",
       "srcTrgColDataType" : "VARCHAR",
@@ -845,7 +855,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120104,
+      "srcTgtColId" : 6120146,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_comm",
       "srcTrgColDataType" : "VARCHAR",
@@ -856,7 +866,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120105,
+      "srcTgtColId" : 6120147,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_totalsalary",
       "srcTrgColDataType" : "VARCHAR",
@@ -867,7 +877,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120106,
+      "srcTgtColId" : 6120148,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_birthd",
       "srcTrgColDataType" : "VARCHAR",
@@ -878,7 +888,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120107,
+      "srcTgtColId" : 6120149,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_hired",
       "srcTrgColDataType" : "VARCHAR",
@@ -889,7 +899,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120108,
+      "srcTgtColId" : 6120150,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_lname",
       "srcTrgColDataType" : "VARCHAR",
@@ -900,7 +910,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120109,
+      "srcTgtColId" : 6120151,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_fname",
       "srcTrgColDataType" : "VARCHAR",
@@ -911,7 +921,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120110,
+      "srcTgtColId" : 6120152,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_address",
       "srcTrgColDataType" : "VARCHAR",
@@ -922,7 +932,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120111,
+      "srcTgtColId" : 6120153,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_city",
       "srcTrgColDataType" : "VARCHAR",
@@ -933,7 +943,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120112,
+      "srcTgtColId" : 6120154,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_state",
       "srcTrgColDataType" : "VARCHAR",
@@ -944,7 +954,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120113,
+      "srcTgtColId" : 6120155,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_hphone",
       "srcTrgColDataType" : "VARCHAR",
@@ -955,7 +965,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120114,
+      "srcTgtColId" : 6120156,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "s_ssn",
       "srcTrgColDataType" : "VARCHAR",
@@ -966,7 +976,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120115,
+      "srcTgtColId" : 6120157,
       "ruleClsPropId" : 6117232,
       "srcTrgColName" : "errrow",
       "srcTrgColDataType" : "VARCHAR",
@@ -977,7 +987,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120118,
+      "srcTgtColId" : 6120160,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_staffid",
       "srcTrgColDataType" : "VARCHAR",
@@ -988,7 +998,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120119,
+      "srcTgtColId" : 6120161,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_sex",
       "srcTrgColDataType" : "VARCHAR",
@@ -999,7 +1009,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120120,
+      "srcTgtColId" : 6120162,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_jobcode",
       "srcTrgColDataType" : "VARCHAR",
@@ -1010,7 +1020,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120121,
+      "srcTgtColId" : 6120163,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_company",
       "srcTrgColDataType" : "VARCHAR",
@@ -1021,7 +1031,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120122,
+      "srcTgtColId" : 6120164,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_salary",
       "srcTrgColDataType" : "VARCHAR",
@@ -1032,7 +1042,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120123,
+      "srcTgtColId" : 6120165,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_bonus",
       "srcTrgColDataType" : "VARCHAR",
@@ -1043,7 +1053,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120124,
+      "srcTgtColId" : 6120166,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_comm",
       "srcTrgColDataType" : "VARCHAR",
@@ -1054,7 +1064,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120125,
+      "srcTgtColId" : 6120167,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_totalsalary",
       "srcTrgColDataType" : "VARCHAR",
@@ -1065,7 +1075,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120126,
+      "srcTgtColId" : 6120168,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_birthd",
       "srcTrgColDataType" : "VARCHAR",
@@ -1076,7 +1086,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120127,
+      "srcTgtColId" : 6120169,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_hired",
       "srcTrgColDataType" : "VARCHAR",
@@ -1087,7 +1097,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120128,
+      "srcTgtColId" : 6120170,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_lname",
       "srcTrgColDataType" : "VARCHAR",
@@ -1098,7 +1108,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120129,
+      "srcTgtColId" : 6120171,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_fname",
       "srcTrgColDataType" : "VARCHAR",
@@ -1109,7 +1119,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120130,
+      "srcTgtColId" : 6120172,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_address",
       "srcTrgColDataType" : "VARCHAR",
@@ -1120,7 +1130,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120131,
+      "srcTgtColId" : 6120173,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_city",
       "srcTrgColDataType" : "VARCHAR",
@@ -1131,7 +1141,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120132,
+      "srcTgtColId" : 6120174,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_state",
       "srcTrgColDataType" : "VARCHAR",
@@ -1142,7 +1152,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120133,
+      "srcTgtColId" : 6120175,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_hphone",
       "srcTrgColDataType" : "VARCHAR",
@@ -1153,7 +1163,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120134,
+      "srcTgtColId" : 6120176,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "s_ssn",
       "srcTrgColDataType" : "VARCHAR",
@@ -1164,7 +1174,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6120135,
+      "srcTgtColId" : 6120177,
       "ruleClsPropId" : 6117267,
       "srcTrgColName" : "errrow",
       "srcTrgColDataType" : "VARCHAR",
@@ -1176,15 +1186,25 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 6120137,
-      "srcColId" : 6120098,
-      "trgColId" : 6120118,
+      "colMapId" : 6120179,
+      "srcColId" : 6120140,
+      "trgColId" : 6120160,
       "colMapType" : "join",
       "srcColName" : "s_staffid",
       "tgtColName" : "s_staffid",
       "colMapExpr" : "s_staffid=s_staffid",
       "srcTrgColMapVisible" : 1,
       "displayIndex" : 1
+    }, {
+      "colMapId" : 6120180,
+      "srcColId" : 6120153,
+      "trgColId" : 6120173,
+      "colMapType" : "join",
+      "srcColName" : "s_city",
+      "tgtColName" : "s_city",
+      "colMapExpr" : "s_city=s_city",
+      "srcTrgColMapVisible" : 1,
+      "displayIndex" : 2
     } ],
     "objectVOList" : null,
     "srcCount" : null,
