@@ -12,7 +12,7 @@
     "folderType" : "RULE",
     "startTime" : null,
     "endTime" : null,
-    "ruleName" : "Val025_OrderBy",
+    "ruleName" : "Val025_White Space is NULL set to No OR OrderBy",
     "displayName" : null,
     "rulePurpose" : "",
     "ruleTemplate" : null,
