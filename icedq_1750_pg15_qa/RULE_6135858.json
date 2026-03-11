@@ -12,7 +12,7 @@
     "folderType" : "RULE",
     "startTime" : null,
     "endTime" : null,
-    "ruleName" : "Val024_Where clause",
+    "ruleName" : "Val024_Empty Sting is Null set to NO Or Where clause",
     "displayName" : null,
     "rulePurpose" : "",
     "ruleTemplate" : null,
