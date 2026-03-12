@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from CustomerGroovy",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6141340,
+          "srcTgtColId" : 6141354,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "customerid",
           "srcTrgColDataType" : "INT",
@@ -115,7 +115,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6141341,
+          "srcTgtColId" : 6141355,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "acctnumber",
           "srcTrgColDataType" : "VARCHAR",
@@ -126,7 +126,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6141342,
+          "srcTgtColId" : 6141356,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "VARCHAR",
@@ -137,7 +137,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6141343,
+          "srcTgtColId" : 6141357,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "VARCHAR",
@@ -148,7 +148,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6141344,
+          "srcTgtColId" : 6141358,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "gender",
           "srcTrgColDataType" : "VARCHAR",
@@ -159,7 +159,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6141345,
+          "srcTgtColId" : 6141359,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "email",
           "srcTrgColDataType" : "VARCHAR",
@@ -170,7 +170,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6141346,
+          "srcTgtColId" : 6141360,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "yearlyincome",
           "srcTrgColDataType" : "INT",
@@ -181,7 +181,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 6141347,
+          "srcTgtColId" : 6141361,
           "ruleClsPropId" : 6140826,
           "srcTrgColName" : "addressid",
           "srcTrgColDataType" : "INT",
@@ -342,7 +342,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 6141349,
+          "srcTgtColId" : 6141363,
           "ruleClsPropId" : 6140853,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -404,9 +404,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 6141351,
-        "srcColId" : 6141340,
-        "trgColId" : 6141349,
+        "colMapId" : 6141365,
+        "srcColId" : 6141354,
+        "trgColId" : 6141363,
         "colMapType" : "join",
         "srcColName" : "customerid",
         "tgtColName" : "cnt",
@@ -526,7 +526,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 6141340,
+      "srcTgtColId" : 6141354,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "customerid",
       "srcTrgColDataType" : "INT",
@@ -537,7 +537,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141341,
+      "srcTgtColId" : 6141355,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "acctnumber",
       "srcTrgColDataType" : "VARCHAR",
@@ -548,7 +548,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141342,
+      "srcTgtColId" : 6141356,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "VARCHAR",
@@ -559,7 +559,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141343,
+      "srcTgtColId" : 6141357,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "VARCHAR",
@@ -570,7 +570,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141344,
+      "srcTgtColId" : 6141358,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "gender",
       "srcTrgColDataType" : "VARCHAR",
@@ -581,7 +581,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141345,
+      "srcTgtColId" : 6141359,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "email",
       "srcTrgColDataType" : "VARCHAR",
@@ -592,7 +592,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141346,
+      "srcTgtColId" : 6141360,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "yearlyincome",
       "srcTrgColDataType" : "INT",
@@ -603,7 +603,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141347,
+      "srcTgtColId" : 6141361,
       "ruleClsPropId" : 6140826,
       "srcTrgColName" : "addressid",
       "srcTrgColDataType" : "INT",
@@ -614,7 +614,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 6141349,
+      "srcTgtColId" : 6141363,
       "ruleClsPropId" : 6140853,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -626,9 +626,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 6141351,
-      "srcColId" : 6141340,
-      "trgColId" : 6141349,
+      "colMapId" : 6141365,
+      "srcColId" : 6141354,
+      "trgColId" : 6141363,
       "colMapType" : "join",
       "srcColName" : "customerid",
       "tgtColName" : "cnt",
