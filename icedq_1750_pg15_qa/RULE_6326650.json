@@ -12,7 +12,7 @@
     "folderType" : "RULE",
     "startTime" : null,
     "endTime" : null,
-    "ruleName" : "ADO-Excellus01_To check the all variables",
+    "ruleName" : "V01_To check the validation object",
     "displayName" : null,
     "rulePurpose" : "",
     "ruleTemplate" : null,
